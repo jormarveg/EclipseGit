@@ -30,7 +30,12 @@ public class Persona {
 	public void saludar() {
 		System.out.println("Hola, me llamo " + nombre + " y tengo " + edad + " años.");
 		if (mascota != null && coche != null) {
-			System.out.println("Mi coche es " + coche.getMarca() + " y mi mascota es un " + mascota.getEspecie()+".");
+			System.out.println("Mi coche es " + coche.getMarca() + " y mi mascota es un " + mascota.getEspecie() + ".");
 		}
+	}
+
+	public void despedir() {
+		System.out.println("Hola, me llamo " + 
+				nombre + " y me voy.");
 	}
 }
