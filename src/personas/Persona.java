@@ -33,4 +33,9 @@ public class Persona {
 			System.out.println("Mi coche es " + coche.getMarca() + " y mi mascota es un " + mascota.getEspecie()+".");
 		}
 	}
+	
+	public void despedir() {
+		System.out.println("Soy " + 
+				nombre + " y me voy por donde he venido.");
+	}
 }
